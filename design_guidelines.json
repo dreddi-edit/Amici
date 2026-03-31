@@ -1,0 +1,161 @@
+{
+  "theme": "LIGHT",
+  "archetype": "1 (Organic & Earthy)",
+  "colors": {
+    "background": "#F8F6F2",
+    "foreground": "#0A0A0A",
+    "primary": "#0A0A0A",
+    "secondary": "#D9C5B2",
+    "accent": "#D9C5B2",
+    "muted": "#EBE8E0",
+    "border": "#E5E0D8"
+  },
+  "typography": {
+    "headlines": "Cormorant Garamond",
+    "body": "Inter",
+    "scale": {
+      "h1": "text-5xl md:text-6xl lg:text-7xl tracking-tighter leading-none",
+      "h2": "text-4xl md:text-5xl tracking-tight leading-tight",
+      "h3": "text-2xl md:text-3xl tracking-tight",
+      "h4": "text-xl md:text-2xl",
+      "body": "text-base md:text-lg leading-relaxed font-light",
+      "overline": "text-xs md:text-sm uppercase tracking-[0.2em] font-semibold"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-6 md:px-12 lg:px-24",
+    "section_padding": "py-24 md:py-32 lg:py-48",
+    "spacing": "generous whitespace, asymmetrical bento grids for galleries, wide gaps (gap-12 to gap-24)",
+    "aesthetic": "Editorial magazine feel, Vogue meets fine dining. Open and airy."
+  },
+  "components": {
+    "navigation": {
+      "style": "Fixed top, transparent background initially, shrinks and adds backdrop-blur-md bg-[#F8F6F2]/80 on scroll.",
+      "links": ["Willkommen", "Restaurant", "Party Service", "Galerie", "Kontakt", "News"]
+    },
+    "hero": {
+      "animation": "Word by word text split slide-in on load. Full-screen height.",
+      "layout": "Minimalist centered or asymmetrical split with large typography and floating image."
+    },
+    "menu_section": {
+      "layout": "Horizontal scroll for highlights. Speisekarte with editorial category layout (Antipasti, Minestre, Pesce, Carni, Formaggi, Dolci).",
+      "animations": "Dish names slide in from left, descriptions from right."
+    },
+    "images": {
+      "style": "Sharp or slightly rounded corners (max rounded-sm).",
+      "animations": "Parallax on full-width images. Image reveal effect: wipe in behind sliding color overlay (#D9C5B2).",
+      "interaction": "Custom dot cursor when hovering."
+    },
+    "stats": {
+      "animation": "Numbers count up when scrolled into view."
+    },
+    "buttons": {
+      "style": "Minimal text links with underline animation, or solid primary (#0A0A0A) blocks with elegant hover states (scale up slightly, lighter background).",
+      "padding": "px-8 py-4"
+    },
+    "forms": {
+      "style": "Reservierung and Party Service forms with floating labels, minimal borders, no background.",
+      "inputs": "border-b border-foreground/20 focus:border-foreground bg-transparent transition-colors"
+    },
+    "map": {
+      "type": "OpenStreetMap",
+      "style": "Grayscale or desaturated filter to match the #F8F6F2 aesthetic."
+    }
+  },
+  "animations": {
+    "global": "Smooth page transitions between subpages.",
+    "scroll": "Sections fade + rise (translate-y-8 to 0, opacity 0 to 1) via IntersectionObserver.",
+    "hover": "Subtle image scales, text color shifts to secondary (#D9C5B2)."
+  },
+  "media": {
+    "hero": [
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/05/amici_header.jpg",
+        "description": "Main hero background image"
+      }
+    ],
+    "about": [
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/05/amici_ingresso_p-1.jpg",
+        "description": "Entrance image for about section"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2025/02/PHOTO-2025-02-27-12-25-20.jpg",
+        "description": "Team photo"
+      }
+    ],
+    "parallax": [
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/layerslider/Previous-v5-demo-slider/bg21.jpg",
+        "description": "Full-width parallax background"
+      }
+    ],
+    "gallery": [
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2020/06/Amici-No-2-495x400.jpg",
+        "description": "Interior shot 1"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2020/06/Amici-No1-495x400.jpg",
+        "description": "Interior shot 2"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/05/A_P1000397a-495x400.jpg",
+        "description": "Dish 1"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/06/P1000436a-495x400.jpg",
+        "description": "Dish 2"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/06/IMG_1777a-495x400.jpg",
+        "description": "Dish 3"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/06/P1000425a-495x400.jpg",
+        "description": "Sogliola dish"
+      }
+    ],
+    "menu_highlights": [
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/06/speisekarte-495x400.jpg",
+        "description": "Speisekarte cover"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/06/IMG_1802a-495x400.jpg",
+        "description": "Weinkarte cover"
+      },
+      {
+        "url": "https://ristorante-amici.de/wp-content/uploads/2018/05/Impressioni_amici_u.jpg",
+        "description": "Impressioni thumbnail"
+      }
+    ]
+  },
+  "content": {
+    "language": "German",
+    "tone": "Sophisticated, minimal, modern, no clichés",
+    "menu": {
+      "categories": ["Antipasti & Paste", "Minestre & Insalate", "Pesce", "Carni", "Formaggi", "Dolci"],
+      "sample_items": [
+        { "name": "Misto di Carpaccio", "price": "21,00", "desc": "Salmone e Branzino in Scheiben, mariniert" },
+        { "name": "Taglierini verdi", "price": "17,50", "desc": "Grüne Nudeln mit Tomatensauce und Kräutern" },
+        { "name": "Branzino alla Crosta", "price": "44,00", "desc": "Seewolf in Salzkruste" },
+        { "name": "Cuore di Filetto", "price": "84,00", "desc": "Rinderfilet für 2 Personen" }
+      ]
+    },
+    "wine_regions": ["Piemont", "Lombardei", "Südtirol", "Friaul", "Marken", "Toskana", "Umbrien", "Kampanien", "Apulien", "Sizilien"]
+  },
+  "instructions_to_main_agent": [
+    "Install 'lucide-react' for minimal UI icons.",
+    "Add fonts to index.css: @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap');",
+    "Tailwind config must extend font families for 'sans' (Inter) and 'serif' (Cormorant Garamond).",
+    "All scroll animations must use raw CSS/IntersectionObserver hooks. Do not use heavy animation libraries unless necessary.",
+    "Implement the Word-by-word text split animation using a custom React component mapping over the string and delaying CSS transforms.",
+    "Horizontal scroll for menu highlights can be built with a sticky container and horizontal overflow or a flex container that translates horizontally based on scroll percentage.",
+    "The Kontakt page must include a React-leaflet or simple iframe to OpenStreetMap with a filter: grayscale(100%) applied via CSS to match the aesthetic.",
+    "Add custom cursor logic for images: a div fixed to mouse coordinates that scales up and shows 'View' or a dot when hovering specific data-cursor targets.",
+    "Reservation and Party Service forms are frontend only, mock submission.",
+    "Ensure generous spacing! Avoid tight paddings. Use p-12 to p-24.",
+    "Background must explicitly be #F8F6F2, do not use white."
+  ]
+}
